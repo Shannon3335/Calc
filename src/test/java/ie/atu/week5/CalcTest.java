@@ -26,6 +26,12 @@ class CalcTest {
         assertEquals(5,new_calc.subtract(8,3));
     }
 
+    @Test
+    void test_mult()
+    {
+        assertEquals(0,new_calc.mult(1000000,0));
+    }
+
 
     @AfterEach
     void tearDown() {
